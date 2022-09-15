@@ -1,0 +1,70 @@
+Definição de Projeto Java.
+
+Nome: Project Manager App (PMA)
+
+Descrição: Aplicação para o gerenciamento de projeto e tarefas relacionadas aos projetos.
+
+Objetivo: Resolver a organização e auxiliar no gerenciamento de demandas e tarefas de um ou mais projetos.
+
+Entidades:
+
+	* Projeto;
+		- Nome;
+		- Descrição;
+		- Data de Criação;
+		- Data de Atualização;
+	* Tarefa;
+		- Nome;
+		- Descrição;
+		- Status;
+		- Observações;
+		- Prazo;
+		- Data de Criação;
+		- Data de Atualizações;
+
+Requisitos:
+
+	* Permitir cadastro de projetos;
+	* Permitir editar os projetos;
+	* Permitir excluir os projetos;
+
+	* Permitir cadastro de tarefas;
+	* Permitir editar os tarefas;
+	* Permitir excluir os tarefas;
+
+Regras de negócio:
+
+	* Não irá conter sistema de login;
+	* Não haverá conceito de usuário;
+	* Toda tarefa deve pertencer a um Projeto;
+
+Tecnologias utilizadas:
+	
+	* Java;
+	* MySql;
+	* Swing;
+
+Hacks para interface gráfica:
+	prototipagem das telas (Origami, proto.io, ninjamock, etc);
+	paleta de cores (flat UI Colors, Adobe Color, Coolors);
+	icones (flaticon, icons8);
+	imagens (shutterstock.com);
+
+
+Passo a passo para conclusão do projeto:
+	
+	- Criação do banco de dados (OK);
+	- Criação das classes de modelo (OK);
+	- Criação da conexão com o banco de dados;
+	- Criação das classes de controle (Acesso aos dados do BD);
+	- Criação das interfaces gráficas;
+		- Criação da tela principal;
+			- Criação do CellRederer Prazo
+			- Criação do CellRederer Editar e Deletar;
+		- Criação da tela de Cadastro de Projeto;
+		- Criação da tela de cadastro de Tarefa;
+	- Implementação dos eventos;
+		- Validações;
+	- Ajustes finais;
+	- Teste da aplicação;
+
